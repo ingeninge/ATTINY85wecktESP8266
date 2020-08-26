@@ -1,0 +1,2 @@
+ATTINY85 zum Tastenabrfagen und Wecken des ESP8266 aus dem DeepSleep.
+2 Taster lösen einen PCI Pin Change Interrupt aus. Es wird abgefragt, welcher Pin den Interrupt ausgelöst hat und eine kosrrespondierende Ausgangsleitung parallel zur Reset Leitung zum ESP auf Low gelegt. Somit wacht der ESP aus dem DeepSleep auf, schaut, welcher Pin ihn geweckt hat und schickt eine MQTT Nachricht an den Broker, damit der Wasserhahn auf oder zu gemacht wird.
