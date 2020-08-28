@@ -1,3 +1,6 @@
+// This code is based on the example from https://arduino-projekte.webnode.at/meine-projekte/attiny-im-schlafmodus/wecken-mit-pci/
+
+
 #include <Arduino.h>
 #include <avr/sleep.h>
 
