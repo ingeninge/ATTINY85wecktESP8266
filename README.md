@@ -18,3 +18,5 @@ Der ATTiny85 geht nach verrichteter Arbeit übrigens auch in den DeepSleep und d
 längere Zeit betrieben werden. Wie lange weiß ich noch nicht, 
 aber ein zeitgesteuertes Polling von Tasten mit dem ESP8266 geht nicht lange gut. 
 Dafür verbraucht der WLAN-Chip einfach zu viel Strom.
+
+Quelle: https://arduino-projekte.webnode.at/meine-projekte/attiny-im-schlafmodus/wecken-mit-pci/
