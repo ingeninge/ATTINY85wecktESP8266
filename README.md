@@ -21,6 +21,8 @@ Dafür verbraucht der WLAN-Chip einfach zu viel Strom.
 
 Quelle: https://arduino-projekte.webnode.at/meine-projekte/attiny-im-schlafmodus/wecken-mit-pci/
 
+Um den Code in den ATTiny85 zu brennen, richtet man sich in der Arduino IDE nach der Anleitung von https://wolles-elektronikkiste.de/attiny-mit-arduino-code-programmieren die Bibliothek AttinyCore ein. Bei der Auswahl des Controllers dann ATtiny85 (No Bootloader!) aus, brennt den Bootloader (in Wiklichkeit nur die Fuse Bits) und dann kann man den Code wie gewohnt uploaden.
+
 English:
 ATTiny85 wakes up from deep sleep on key press and resets a ESP8266, latching the triggering key
 
